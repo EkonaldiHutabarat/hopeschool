@@ -6,7 +6,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'http://103.102.153.219/';
+$CFG->dbhost    = 'appara';
 $CFG->dbname    = 'silamosikDb';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '';
@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 //https://localhost/AllProject/TA1/moodle
 // /opt/lampp/moodledata
-$CFG->wwwroot   = 'https://103.102.153.219/hopeschool';
+$CFG->wwwroot   = 'http://103.102.153.219/hopeschool';
 $CFG->dataroot  = '/opt/lampp/moodledata';
 $CFG->admin     = 'admin';
 
