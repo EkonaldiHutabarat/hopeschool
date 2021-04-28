@@ -38,12 +38,12 @@ $CFG = new stdClass();
 // will be stored.  This database must already have been created         //
 // and a username/password created to access it.                         //
 
-$CFG->dbtype    = 'pgsql';      // 'pgsql', 'mariadb', 'mysqli', 'sqlsrv' or 'oci'
+$CFG->dbtype    = 'mariadb';      // 'pgsql', 'mariadb', 'mysqli', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
-$CFG->dbname    = 'moodle';     // database name, eg moodle
-$CFG->dbuser    = 'username';   // your database username
-$CFG->dbpass    = 'password';   // your database password
+$CFG->dbhost    = '103.102.153.219';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbname    = 'silamosikDb';     // database name, eg moodle
+$CFG->dbuser    = 'root';   // your database username
+$CFG->dbpass    = '';   // your database password
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
 $CFG->dboptions = array(
     'dbpersist' => false,       // should persistent database connections be
@@ -148,7 +148,8 @@ $CFG->wwwroot   = 'http://example.com/moodle';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/home/example/moodledata';
+$CFG->dataroot  = '/opt/lampp/moodledata';
+// /home/example/moodledata
 
 
 //=========================================================================
@@ -156,7 +157,7 @@ $CFG->dataroot  = '/home/example/moodledata';
 //=========================================================================
 // The following parameter sets the permissions of new directories
 // created by Moodle within the data directory.  The format is in
-// octal format (as used by the Unix utility chmod, for example).
+// octal format (as used by the Unix utility chmoexampled, for example).
 // The default is usually OK, but you may want to change it to 0750
 // if you are concerned about world-access to the files (you will need
 // to make sure the web server process (eg Apache) can access the files.
