@@ -6,7 +6,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'http://103.102.153.219/phpmyadmin/';
+$CFG->dbhost    = 'http://103.102.153.219/';
 $CFG->dbname    = 'silamosikDb';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '';
