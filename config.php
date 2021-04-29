@@ -15,7 +15,7 @@ $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => '',
   'dbsocket' => '',
-  'dbcollation' => 'utf8mb4_unicode_ci',
+  'dbcollation' => 'utf8_unicode_ci',
 );
 //https://localhost/AllProject/TA1/moodle
 // /opt/lampp/moodledata
